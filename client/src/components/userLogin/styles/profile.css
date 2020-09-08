@@ -1,0 +1,142 @@
+.contenedor-principal-order {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    border: 1px solid black;
+    background-image: linear-gradient(to right, rgb(141, 0, 248) 0%, #fbff00 100%);
+}
+
+.contenedor-menu-user {
+    width: 20%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    border: 1px solid black;
+    font-family: "Bangers", cursive;
+    /* background-color: rgb(153, 111, 111); */
+    background-image: linear-gradient(to left, rgb(141, 0, 248) 0%, #fbff00 100%);
+}
+
+
+/* .contenido-menu-user {
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 20px;
+    margin-left: 10px;
+} */
+
+.titulo-menu-user {
+    width: auto;
+    height: auto;
+    display: flex;
+    margin-top: 20px;
+}
+
+.separador {
+    width: 80%;
+    height: 1px;
+    background-color: rgb(238, 237, 237);
+}
+
+.icono-menu {
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    margin-right: 40px;
+}
+
+.icono-menu-u {
+    width: 50%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    margin-right: 40px;
+    color: black;
+}
+
+.titulo-menu {
+    font-size: 34px;
+}
+
+.cont-menu {
+    width: 50%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 40px;
+    margin-left: 50px;
+}
+
+.titulo-compra {
+    font-size: 30px;
+    color: black;
+}
+
+.contenedor-order-me {
+    width: 60%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    border: 1px solid black;
+}
+
+.content-order {
+    width: 90%;
+    height: auto;
+    margin: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding-bottom: 15px;
+    background-image: linear-gradient(to left, rgb(141, 0, 248) 0%, #fbff00 100%);
+}
+
+.titulo-order-me {
+    margin-top: 20px;
+    color: rgb(61, 49, 49);
+    text-align: center;
+    font-size: 36px;
+}
+
+.contenedor-user-me {
+    width: 20%;
+    height: auto;
+    text-align: center;
+    background-image: linear-gradient(to left, rgb(141, 0, 248) 0%, #fbff00 100%);
+}
+
+h4{
+    margin-top: 20px;
+    font-family: "Bangers", cursive;
+}
+
+@media (max-width: 1500px){
+    .contenedor-menu-user{
+        display: none;
+    }
+    .contenedor-order-me{
+        width: 80%;
+    }
+}
+
+@media (max-width: 1075px){
+    .contenedor-menu-user{
+        display: none;
+    }
+    .contenedor-order-me{
+        width: 80%;
+    }
+}
+
+@media (max-width: 720px){
+    .edit{
+        font-size: 10px;
+    }
+}
+

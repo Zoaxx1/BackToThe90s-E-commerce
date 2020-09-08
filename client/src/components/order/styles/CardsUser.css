@@ -1,0 +1,28 @@
+
+.usuario{
+    margin-left: 20px;
+    color: black;
+    margin: 10px;
+}
+.link{
+    display: flex;
+    justify-content: space-between;
+}
+
+.link:hover{
+    text-decoration: none;
+}
+
+.tarjeta:hover{
+    top: -15px;
+    border: 1px solid transparent;
+    background: linear-gradient(15deg, rgb(141, 0, 248) 0%, #fbff00 100%), 
+    linear-gradient(2deg, black, white);
+    background-clip: padding-box, border-box;
+    background-origin: padding-box, border-box;
+}
+.tarjeta{
+    border: 1px solid transparent;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}

@@ -1,0 +1,60 @@
+.cb {
+    width: 250px;
+    height: 450px;
+    background-image: linear-gradient(to right, rgb(135, 58, 194) 0%, #ecee7d 100%);
+    margin: 0px auto;
+    margin-right: 20px;
+    border: 1px solid rgb(51, 38, 124);
+    border-radius: 5px;
+}
+
+.principalimg {
+    width: 210px;
+    height: 100px;
+    margin-top: -10px;
+    margin-bottom: 10px;
+    margin-left: 10%;
+    border: 1px solid black !important;
+}
+
+.imagenprincipal{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.containerImg {
+    width: 130%;
+    position: relative;
+    right: 23%;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.secundaryImg {
+    width: 50px;
+    height: 50px;
+}
+
+p {
+    margin-bottom: 0px;
+    margin-top: -8px;
+}
+
+.deleteButton{
+    width: 10%;
+    float: right;
+    padding-left: 20px;
+}
+
+.blabla{
+    /* color: black; */
+    background-color:  rgb(51, 38, 124);
+}
+
+.renderizados {
+    width: 100%;
+}

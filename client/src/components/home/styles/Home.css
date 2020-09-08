@@ -1,0 +1,287 @@
+body {
+  background-color: black;
+}
+
+.navegador {
+  font-family: "Bangers", cursive;
+}
+
+.carousel-p {
+  font-family: "Bangers", cursive;
+  text-shadow: 0 0 1px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #ff00de,
+    0 0 25px #ff00de;
+  color: black;
+  font-weight: bolder;
+  margin-left: -70%;
+  margin-top: 3%;
+  font-size: 20px;
+  letter-spacing: 2px;
+}
+
+.carousel-h5 {
+  font-family: "Bangers", cursive;
+  text-shadow: 0 0 1px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #ff00de,
+    0 0 25px #ff00de;
+  color: black;
+  font-weight: bolder;
+  margin-left: -70%;
+  margin-top: -40%;
+  font-size: 25px;
+  letter-spacing: 2px;
+}
+
+.btn-success-1 {
+  font-family: "Bangers", cursive;
+  color: black;
+  border: 2px black solid;
+  letter-spacing: 2px;
+}
+
+.cont-p {
+  background-image: linear-gradient(to left, rgb(141, 0, 248) 0%, #fbff00 100%);
+  height: 130%;
+  margin-top: 6px;
+  padding-bottom: 30px;
+  border-radius: 10px;
+}
+
+.my-4 {
+  width: 70%;
+}
+
+.title-p {
+  font-size: 70px;
+  font-family: "Bangers", cursive;
+  padding-top: 6px;
+  text-align: center;
+  -webkit-text-fill-color: #5c08d3;
+  -webkit-text-stroke-color: #c546f7;
+  -webkit-text-stroke-width: 1px;
+  letter-spacing: 2px;
+}
+
+.title-p:hover {
+  text-shadow: 0 0 10px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #ff00de,
+    0 0 25px #103ccc;
+  transition-duration: 1.5s;
+}
+
+.cont-sect {
+  font-family: "Bangers", cursive;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 700;
+  color: black;
+  letter-spacing: 2px;
+}
+
+.boton-mas {
+  display: flex;
+  justify-content: center;
+  margin-top: 13px;
+}
+
+.boton-ir {
+  width: 180px;
+  height: 60px;
+  font-family: "Bangers", cursive;
+  font-size: 30px;
+  letter-spacing: 2px;
+}
+
+.div1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.trj {
+  margin-top: 5%;
+  margin-left: 0%;
+  margin-bottom: 5%;
+  width: 250px !important;
+  height: 375px !important;
+}
+
+.card-title {
+  text-align: center;
+  font-size: 30px;
+  font-family: "Bangers", cursive;
+  margin-top: 10px;
+  color: white;
+  border: 1px solid black;
+  background-color: black;
+  border-radius: 10px;
+}
+
+.border-gradient {
+  top: -15px;
+  padding-top: 10px;
+  position: relative;
+  height: auto;
+  margin-top: 30px;
+  padding: 0.5rem;
+  border: 5px solid transparent;
+  background: linear-gradient(to right, black, black),
+    linear-gradient(15deg, rgb(141, 0, 248) 0%, #fbff00 100%);
+  background-clip: padding-box, border-box;
+  background-origin: padding-box, border-box;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+.titulo-footer {
+  font-family: "Bangers", cursive;
+  color: white;
+  font-size: 30px;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+.link-footer {
+  width: 50%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  letter-spacing: 2px;
+  margin-left: 40%;
+}
+
+.list-unstyled{
+  width: 100%;
+  
+}
+
+.parrafo-footer {
+  font-family: "Bangers", cursive;
+  color: white;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+.links-footer {
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-family: "Bangers", cursive;
+  font-size: 20px;
+  letter-spacing: 2px;
+}
+
+.footer-copyright {
+  font-family: "Bangers", cursive;
+  color: white;
+  font-size: 22px;
+  letter-spacing: 2px;
+}
+
+.footer-copyright > a {
+  font-family: "Bangers", cursive;
+  color: white;
+  letter-spacing: 2px;
+}
+
+.car-imagenes {
+  width: 65%;
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.imagen-c {
+  width: 50%;
+  height: 50vh;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+.imagen-t {
+  width: 50%;
+  height: 50vh;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+.info-car {
+  width: 35%;
+  height: 42%;
+  left: 70px;
+  background-color: hsl(0, 0%, 85%);
+  opacity: 0.6;
+}
+
+.text-light-f {
+  width: 100%;
+  justify-content: center;
+}
+
+.redes{
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.boton-redes{
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 1300px){
+  .carousel-h5, .carousel-p{
+    display: none;
+  }
+  .cont-sect{
+    font-size: 25px;
+  }
+  .title-p{
+    font-size: 65px;
+  }
+  .boton-ir{
+    font-size: 28px;
+  }
+}
+
+@media (max-width: 900px){
+  .cont-sect{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 30px;
+  }
+  .title-p{
+    font-size: 60px;
+  }
+  .boton-ir{
+    font-size: 24px;
+  }
+  .car-principal {
+    width: 100%;
+  }
+}
+
+@media (max-width: 770px){
+  .links-footer{
+    display: none;
+  }
+}
+
+@media (max-width: 500px){
+  .cont-sect{
+    font-size: 15px;
+  }
+  .title-p{
+    font-size: 55px;
+  }
+  .boton-ir{
+    font-size: 20px;
+  }
+  
+}
+
+

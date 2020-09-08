@@ -1,0 +1,33 @@
+.container-review{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.botones{
+    width: 30%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.review-opinion{
+    border-radius: 20px;
+    background-color: linen;
+}
+
+.imagen-review{
+    width: 270px;
+    height: 320px;
+    border-radius: 20px;
+}
+
+.volver-a-product{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}

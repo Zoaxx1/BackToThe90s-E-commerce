@@ -1,0 +1,201 @@
+/* DIV DE IMAGEN PRINCIPAL Y LAS TRES IMAGENES */
+
+.contenedor-imagenes {
+    display: flex;
+    justify-content: space-around;
+}
+
+/* DIV GENERAL */
+
+.contenedor {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    border: 3px solid black;
+    background-image: linear-gradient(to left, rgb(141, 0, 248) 0%, #fbff00 100%);
+}
+
+.titulo-prod {
+    font-size: 60px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* ESTILOS A IMAGEN PRINCIPAL */
+
+.imagen-p {
+    width: 50%;
+    height: 400px;
+    border: 1px solid rgb(255, 126, 126);
+    border-radius: 50px;
+}
+
+.secundario {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.parrafo-desc {
+    font-size: 25px;
+    text-align: center;
+}
+
+.precioP {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.contenedor-info {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 30px;
+}
+
+/* VALORACIÓN, CLASIFICACIÓN DE ESTRELLAS */
+
+.valoracion {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.valoracion input {
+    display: none;
+}
+
+.valoracion label {
+    float: right;
+    color: #c1b8b8;
+    font-size: 30px;
+}
+
+.valoracion label:hover,
+.valoracion label:hover~label,
+.valoracion input:checked~label {
+    color: #ffff00;
+}
+
+/* BOTON AGREGAR CARRITO*/
+
+.carrito {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-right: 20px;
+    border: 1px solid white;
+}
+
+/* BOTON EDITAR PRODUCTO*/
+
+/* .editar {
+    width: 90%;
+    display: flex;
+    justify-content: flex-end;
+    background-color: red;
+}
+
+.volver {
+    width: 90%;
+    display: flex;
+    justify-content: flex-start;
+    background-color: blue;
+} */
+
+.botonera {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+}
+
+.agrupar-bot {
+    display: flex;
+    height: 40px;
+    justify-content: space-evenly;
+    flex-direction: row-reverse;
+}
+
+/* BOTON CANTIDAD PRODUCTOS*/
+#cantidad {
+
+    border-radius: 10px;
+    width: 20%;
+}
+
+.cantidad-prod {
+    width: 90%;
+    height: auto;
+    display: flex;
+    justify-content: flex-end;
+    margin-left: -42%;
+
+}
+
+/* VENTANA MODAL */
+
+.imagen-modal {
+    width: 200px;
+    border-radius: 50px;
+    border: 2px solid black;
+}
+
+#imagenModal {
+    display: flex;
+    justify-content: center;
+}
+
+/* REVIEW CARD */
+.card-review{
+    width: 100%;
+    height: auto;
+    display: flex;
+    margin-top: 20px;
+    border: 2px solid black;
+    border-radius: 20px;
+    background-image: linear-gradient(to right, rgb(135, 58, 194) 0%, #ecee7d 100%);
+}
+
+.title-subtitle{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.promedio-opiniones{
+    width: 40%;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.review-title{
+    margin-left: -7px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.review-subtitle{
+    margin-bottom: 20px;
+}
+
+.no-opinion{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.no-review{
+    margin-left: 40%;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}

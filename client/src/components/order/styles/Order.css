@@ -1,0 +1,23 @@
+.order {
+    display: flex;
+    justify-content: row;
+}
+
+.order {
+    background-image: linear-gradient(to left, rgb(141, 0, 248) 0%, #fbff00 100%);
+    height: 150% !important;
+    margin-top: 6px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.containerOrder {
+    width: 55%;
+    height: 600px auto;
+    background-image: linear-gradient(to right, rgb(135, 58, 194) 0%, #ecee7d 100%);
+    margin: 0px auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: 10px;
+    border-radius: 20px;
+}

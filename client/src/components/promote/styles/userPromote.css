@@ -1,0 +1,5 @@
+.contenedor-promote {
+  width: 100%;
+  height: auto;
+  background-image: linear-gradient(to left, rgb(141, 0, 248) 0%, #fbff00 100%);
+}

@@ -1,0 +1,26 @@
+.filtrado{
+    margin-top: 20px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+.volver{
+    margin-left: 50px;
+}
+
+.filterBox{
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    justify-content: space-evenly;
+}
+.filtrar{
+    font-family: "Bangers", cursive;
+    letter-spacing: 2px;
+}
+
+.userName{
+    width: 300px;
+}

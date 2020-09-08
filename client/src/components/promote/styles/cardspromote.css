@@ -1,0 +1,15 @@
+.contenedor-cards-promote {
+  width: 100%;
+  height: auto;
+  background: rgba(0, 0, 0, 0.4);
+}
+
+.parrafo-promote {
+  font-size: 24px;
+  color: black;
+  margin: 10px;
+}
+
+.boton-promote {
+  margin-left: 10px;
+}

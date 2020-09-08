@@ -1,0 +1,33 @@
+.catalogueProducts {
+    width: 100%;
+    height: 1200px auto;
+    margin: 0px auto;
+    margin-bottom: 50px;
+    margin-top: 5px;
+    display: flex;
+    justify-content: flex-end;
+    background-image: linear-gradient(to bottom, rgb(141, 0, 248) 0%, #fbff00 100%); 
+    border-radius: 20px;   
+}
+
+.containerProducts {
+    width: 100%;
+    height: auto;
+    padding-left: 15px;
+    padding-top: 20px;
+    padding-bottom: 500px;
+}
+
+.parrafo{
+    text-align: center;
+    position: relative;
+    top:20px;
+    font-family: 'Bangers', cursive;
+    font-size:50px;
+    color: white;
+    background: #333333;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #dd1818,  rgb(141, 0, 248));  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #dd1818,  rgb(141, 0, 248)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    width: 98%;
+    margin: 0px auto;
+}

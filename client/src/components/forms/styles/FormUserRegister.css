@@ -1,0 +1,101 @@
+.content-formulario {
+  width: 100%;
+  height: 800px;
+  margin-top: 6px;
+  background-image: linear-gradient(to left, rgb(141, 0, 248) 0%, #fbff00 100%);
+  border-radius: 20px;
+}
+
+.titulo-del-form {
+  font-size: 70px;
+  font-family: "Bangers", cursive;
+  padding-top: 6px;
+  text-align: center;
+  -webkit-text-fill-color: #5c08d3;
+  -webkit-text-stroke-color: #c546f7;
+  -webkit-text-stroke-width: 1px;
+  letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.titulo-del-form:hover {
+  text-shadow: 0 0 10px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #ff00de,
+    0 0 25px #103ccc;
+  transition-duration: 1.5s;
+}
+
+.formulario {
+  width: 65%;
+  height: 500px;
+  margin: 0 auto;
+}
+
+.cont-f {
+  width: 85%;
+  height: auto;
+  margin: 0 auto;
+  border: 2px solid white;
+  border-radius: 10px;
+  background-image: linear-gradient(to left, rgb(64, 0, 114) 0%, #909203 100%);
+}
+
+.row {
+  margin-bottom: 16px;
+}
+
+.label-form {
+  width: 100%;
+  display: flex;
+  font-weight: 700;
+  margin-top: 10px;
+  justify-content: center;
+  color: white;
+}
+
+input {
+  background-color: rgb(206, 206, 206);
+}
+
+.terminos-form {
+  text-align: center;
+  font-weight: 700;
+  margin-top: 20px;
+}
+
+.check-form {
+  margin-right: 10px;
+}
+
+.boton-f {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+
+
+.errors {
+  color: rgb(245, 15, 15);
+}
+
+@media (max-width: 700px) {
+  .label-form{
+    font-size: 14px;
+
+  }
+}
+
+@media (max-width: 580px) {
+  .label-form{
+    font-size: 12px;
+
+  }
+}
+
+@media (max-width: 515px) {
+  .label-form{
+    font-size: 10px;
+
+  }
+}

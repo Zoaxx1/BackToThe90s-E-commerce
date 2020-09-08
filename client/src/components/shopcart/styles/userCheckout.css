@@ -1,0 +1,142 @@
+.contenedor-checkout {
+    width: 100%;
+    height: 1260px;
+    margin-top: 6px;
+    background-image: linear-gradient(to top, rgb(135, 58, 194) 0%, #ecee7d 100%);
+}
+
+.cont-check {
+    width: 80%;
+    height: auto;
+    margin-left: 30px;
+    margin: 0 auto;
+}
+
+.contenedor-mi-compra {
+    width: 17%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.titulo-mi-compra {
+    font-size: 45px;
+    font-family: "Bangers", cursive;
+    border-radius: 10px;
+    /* background-image: linear-gradient(to left, rgb(141, 0, 248) 0%, #fbff00 100%); */
+}
+
+.titulo-check {
+    font-size: 24px;
+    width: 30%;
+    text-align: center;
+    font-family: "Bangers", cursive;
+}
+
+.boton-realizar-pago {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+.boton-pago {
+    width: 26%;
+    height: 100px;
+    border-top-right-radius: 70px;
+    border-bottom-right-radius: 70px;
+}
+
+.titulo-del-form-check {
+    font-size: 40px;
+    margin-left: 30px;
+    margin-top: 10px;
+    font-family: "Bangers", cursive;
+}
+
+.cont-f-user {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+  }
+
+.content-formulario-user {
+    width: 100%;
+    height: 1150px;
+    margin-top: 6px;
+    margin: 0 auto;
+    background-image: linear-gradient(to left, rgb(141, 0, 248) 0%, #fbff00 100%);
+    border-radius: 20px;
+    border: 2px solid black;
+  }
+  
+  .titulo-del-form-user:hover {
+    text-shadow: 0 0 10px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #ff00de,
+      0 0 25px #103ccc;
+    transition-duration: 1.5s;
+  }
+  
+  .formulario-user {
+    width: 65%;
+    height: 500px;
+    margin: 0 auto;
+  }
+
+  .row {
+    margin-bottom: 16px;
+  }
+  
+  .label-form-user {
+    width: 100%;
+    display: flex;
+    font-weight: 700;
+    margin-top: 10px;
+    justify-content: flex-start;
+  }
+
+
+  .contenedor-metodos {
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+    border-radius: 4px;
+    border: 1px solid black;
+    background-image: linear-gradient(to right, rgb(141, 0, 248) 0%, #fbff00 100%);
+  }
+
+  .contenedor-envio {
+    width: 90%;
+    height: 100px;
+    margin: 0 auto;
+    display: flex;
+    margin-top: 10px;
+    margin-left: 8px;
+    margin-bottom: 10px;
+    border-bottom: 1px dashed black;
+    font-weight: 700;
+  }
+
+  .parrafo-envio {
+    font-size: 22px;
+    font-weight: 700;
+    margin-top: 6px;
+    margin-left: 10px;
+  }
+
+  .contenedor-pago {
+    width: 90%;
+    height: 100px;
+    margin: 0 auto;
+    display: flex;
+    margin-top: 10px;
+    margin-left: 8px;
+    margin-bottom: 10px;
+    font-weight: 700;
+  }
+
+  .parrafo-pago {
+    font-size: 22px;
+    font-weight: 700;
+    margin-top: 6px;
+    margin-left: 10px;
+  }

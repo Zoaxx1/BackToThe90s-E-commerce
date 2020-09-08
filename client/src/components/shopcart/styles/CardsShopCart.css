@@ -1,0 +1,120 @@
+.contenedor-principal-cart {
+  width: 100%;
+  height: auto;
+}
+
+.cardShop {
+  position: relative;
+  width: 95%;
+  height: 180px;
+  margin: 0px auto;
+  margin-top: 5px;
+  background-image: linear-gradient(to right, rgb(135, 58, 194) 0%, #ecee7d 100%);
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+#imgCard{
+  width: 160px;
+  height: 140px;
+  margin: 20px;
+  background-color: blue;
+}
+
+/* .orderimage {
+  width: 50%;
+  margin: 5px;
+  border-top-left-radius: 50px;
+  border-bottom-right-radius: 50%;
+  border: 3px solid black;
+} */
+
+.details {
+  width: 82%;
+  height: auto;
+  display: flex;
+  margin-top: 20px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.stock {
+  width: 20%;
+  position: absolute;
+  right: 5px;
+  bottom: -15px;
+  text-align: end;
+}
+
+#contentCard{
+  width: 75%;
+  display: flex;
+  justify-content: space-around;
+}
+
+#closeButton{
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  height: 40px;
+  width: 40px;
+  border-radius: 10px;
+}
+
+#cantidad-cart {
+  border-radius: 10px;
+  width: 90%;
+  margin-top: 4px;
+}
+
+.card-text{
+  margin-left: 5%;
+}
+
+.cantidad-producto {
+  margin-top: 6px;
+  margin-right: 12px;
+}
+
+.agrupar-cant {
+  width: 61%;
+  height: auto;
+  display: flex;
+  /* margin-bottom: 10px; */
+  margin-right: 30px;
+}
+
+.boton-card-carrito {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  margin-left: 30px;
+}
+
+.btn-success {
+  margin-bottom: 3px;
+}
+
+.boton-aplicar {
+  margin-bottom: 6px;
+}
+
+@media (max-width: 1265px){
+  .orderimage{
+    display: none;
+  }
+  #contentCard{
+    width: 100%;
+  }
+
+ 
+}
+
+@media (max-width: 840px){
+  .card-text{
+    font-size: 14px;
+  }
+
+ 
+}
